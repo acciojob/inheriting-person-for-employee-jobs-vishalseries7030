@@ -11,7 +11,7 @@ class Person {
 
 class Employee extends Person {
   constructor(name, age, jobTitle) {
-    super(name, age); // call parent constructor
+    super(name, age); // calling parent constructor
     this.jobTitle = jobTitle;
   }
 
